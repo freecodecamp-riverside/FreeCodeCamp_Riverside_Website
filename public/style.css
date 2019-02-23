@@ -46,9 +46,15 @@ nav {
   z-index: 2;
 }
 
+#nav-title{
+  line-height: 1.7;
+}
 .nav-title {
   font-size: 2.5rem;
   color: white;
+}
+.nav-title img{
+  width: 45px;
 }
 
 .bg-green {
@@ -403,6 +409,10 @@ FOOTER SECTION
       width: 90%;
       height: auto;
       margin-left: 0px;
+  }
+  .location-maps img{
+      width: 90%;
+      height: auto;
   }
   .contact-form, .contact-form-underline, input[type=text], textarea {
     width: 100%;
